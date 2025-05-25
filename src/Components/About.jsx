@@ -97,9 +97,9 @@ const About = () => {
                             transition={{ duration: 0.3 }}
                         >
                             <img 
-                                src="https://images.pexels.com/photos/1572878/pexels-photo-1572878.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                src="/images/main.jpg"
                                 alt="Author portrait"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover "
                             />
                         </motion.div>
 

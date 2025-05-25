@@ -11,9 +11,9 @@ export default function App() {
     <div className='h-screen w-full text-white'>
       <Navbar/>
       <About/>
-      <Contact/>
       <Hero/>
       <Testimonials/>
+       <Contact/>
       <Footer/>
     </div>
   )
