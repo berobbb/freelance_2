@@ -18,7 +18,9 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
             className="text-3xl md:text-5xl font-serif leading-tight text-gray-900 mb-4"
           >
-            Wonderful Minimal WordPress Theme
+           
+           
+           Stories That Stay With You
           </motion.h1>
           
           <motion.p 
@@ -44,13 +46,14 @@ export default function Hero() {
               TAKE TOUR
             </motion.button>
             
-            <motion.button 
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-colors text-sm"
-            >
-              PURCHASE
-            </motion.button>
+           <motion.a
+          href="https://www.amazon.in/Books-Jaiwanti-Dimri/s?rh=n%3A976389031%2Cp_27%3AJaiwanti%2BDimri"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="inline-block px-8 py-3 border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-colors text-sm"
+        >
+          PURCHASE
+        </motion.a>
           </motion.div>
         </motion.div>
 
@@ -85,7 +88,7 @@ export default function Hero() {
                 repeat: Infinity,
                 repeatType: "reverse",
                 ease: "easeInOut"
-              }
+              } 
             }}
             src="/images/hero1.png"
             alt="Main Visual"

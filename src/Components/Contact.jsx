@@ -99,7 +99,7 @@ export default function Contact() {
           <div className="flex flex-col gap-12 md:gap-20">
             <div> 
               <p className="font-bold text-[#00054B] text-lg md:text-xl">Contact</p>
-              <p className="font-normal text-[#00054B] text-lg md:text-xl">hi@green.com</p>
+              <p className="font-normal text-[#00054B] text-lg md:text-xl">dimjwanti@gmail.com</p>
             </div>
             <div>
               <p className="font-bold text-[#00054B] text-lg md:text-xl">Based in</p>
